@@ -1,0 +1,8 @@
+#065 Write the numbers as shown below, starting at the bottom of the number one.
+
+import turtle
+
+turtle.left(90)
+turtle.forward(100)
+
+turtle.exitonclick()
