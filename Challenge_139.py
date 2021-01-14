@@ -1,5 +1,3 @@
-#Challenge_139 cretatre a data base
-
 import sqlite3
 
 with sqlite3.connect("PhoneBook.db") as db:
@@ -22,7 +20,6 @@ db.commit()
 
 cursor.execute("""INSERT INTO Names (id,firstname,surname,phonenumber)
         VALUES("3","Darren","Smith","01583 749012") """)
-db.commit()
 
 cursor.execute("""INSERT INTO Names (id,firstname,surname,phonenumber)
         VALUES("4","Anne","Jones","01323 567322") """)
